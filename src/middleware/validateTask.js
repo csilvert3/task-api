@@ -24,4 +24,6 @@ export const validateTaskQuery = [
     .optional()
     .isIn(['true', 'false'])
     .withMessage('completed must be true or false'),
+    
+  checkValidationResults,
 ];
